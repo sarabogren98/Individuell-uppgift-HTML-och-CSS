@@ -23,11 +23,12 @@
 
     <main>
 
-        <h1>Önskad kost:</h1>
+        <h1 class="main__rubrik">Önskad kost:</h1>
 
         <div class="main__kostruta">
                 
-                <label for="Kött">Kött</label>
+            <div class="main__kostruta__buttons">
+                    <label for="Kött">Kött</label>
                 <input type="radio" name="kost" id="Kött" required>
 
             <label for="Fisk">Fisk</label>
@@ -37,17 +38,23 @@
 
             <label for="Vegetarisk">Vegetarisk</label>
             <input type="radio" name="kost" id="Vegetarisk">
+           
+            </div>
             
+           <div class="main__kostruta__allergi">
+            <label for="allergier">Eventuella allergier</label>
+            <input type="text" name="kost" id="allergier">
+           </div>
+            
+ 
         </div>
  
  
-        <label for="allergier">Allergier</label>
-        <input type="text" name="kost" id="allergier">
-
+        
 
         
         <div>
-            <button class="main__boka"><a href="INSERT LINK HERE">Gå vidare</a></button>
+            <button class="main__boka"><a href="/uppgifter.html">Gå vidare</a></button>
         </div>
 
        
