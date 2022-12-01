@@ -100,33 +100,41 @@ main div {
     
 }
 
+@media (min-width:1100px) {
 
-@media (min-width:843px) {
+    .main__meny {
+        font-size: 50px;
+        gap: 100px;
+    }
+
+    .main__boka {
+        margin-top: 5em;
+    }
+
+    header{
+        width: 900px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header__rubrik {
+        font-size: 48px;
+        width: 400px;
+        position: relative;
+        top:40px;
+        left: 10%;
+    }
+
+    .header__text {
+        font-size: 70px;
+        position: relative;
+        left: 50%;
+        width: 400px;
+    }
+
     .header__image {
         width: 500px;
     }
 
-    .header__rubrik {
-       top: 50px;
-       left: 500px;
-    }
-
-    .header__text {
-      position: relative;
-      right: 500px;
-    }
-}
-
-
-
-@media (min-width:) {
-    .header__rubrik {
-        left: 30vw;
-        top: 10vh;
-    }
-
-    .header__text {
-        position:relative;
-        right:25vw;
-    }
 }
