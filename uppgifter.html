@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/mat.css">
-    <title>Önskad kost</title>
+    <link rel="stylesheet" href="/uppgifter.css">
+    <title>Uppgifter</title>
 </head>
 <body>
     
@@ -15,11 +15,67 @@
         <ul class="header__meny">
             <li><a href="/startsida.html">Startsida</a></li>
             <li><a href="/boka.html">Boka</a></li>
-            <li><a href="">Schema</a></li>
-            <li><a href="">Om oss</a></li>
+            <li><a href="/schema.html">Schema</a></li>
+            <li><a href="/omoss.html">Om oss</a></li>
         </ul>
 
     </header>
+
+
+    <main>
+
+        <h1>Uppgifter och betalning</h1>
+
+        <form class="main__form" action="/bekräftelse.html">
+            
+            <div class="main__form__personal">
+
+               <label for="namn">Namn</label>
+            <input type="text" name="uppgifter" id="namn">
+
+            <label for="e-post">E-post</label>
+            <input type="text" name="uppgifter" id="e-post"> 
+
+            </div>
+            
+            <div class="main__form__adress">
+
+              <label for="adress">Adress</label>
+            <input type="text" name="uppgifter" id="adress">
+
+            <div class="main__form__adress__small">
+              <label for="postnummer">Postnummer</label>
+            <input type="text" name="uppgifter" id="postnummer">   
+            </div>
+            
+
+            <label for="postort">Postort</label>
+            <input type="text" name="uppgifter" id="postort"> 
+
+            </div>
+
+            <div class="main__form__card">
+
+                <label for="kortnummer">Kortnummer</label>
+            <input type="text" name="uppgifter" id="kortnummer">
+
+            <label for="mån">Mån</label>
+            <input type="text" name="uppgifter" id="mån"> 
+
+            <label for="år">År</label>
+            <input type="text" name="uppgifter" id="år">
+            
+            <label for="cvc">CVC</label>
+            <input type="text" name="uppgifter" id="cvc">
+
+            </div>
+            
+
+            <input type="submit" value="Gör klart bokning" class="main__boka">
+
+        </form>
+
+    </main>
 
 
 
