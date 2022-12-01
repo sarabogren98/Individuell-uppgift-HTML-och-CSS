@@ -23,11 +23,55 @@ body {
     text-decoration: none;
 }
 
+
+
+.main__rubrik {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.main__card__holder {
+    display: flex;
+    gap: 4em;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    visibility: hidden;
+}
+
 .main__card {
     background-color: #A9FDFF;
-    width: 12em;
-    height: 20em;
+    min-width: 12em;
+    min-height: 18em;
+    border-radius: 1em;
+    position: relative;
+    left: 5%;
+    margin-top: 1em;
 }
+
+.main__card h3 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.main__card__innerbox {
+    width: 8em;
+    min-height: 12em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2em;
+
+}
+
+.main__card__price {
+    text-align: center;
+    color: rgb(116, 112, 112);
+
+}
+
 
 .main__boka {
     width:170px;
@@ -37,6 +81,9 @@ body {
     border-radius: 100em;
     box-shadow: 1px 1px 2px grey;
     margin-top: 5vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .main__boka a {
