@@ -101,6 +101,7 @@ main {
     transform: translateX(-50%);
     margin-top: 5vh;
     margin-bottom: 5vh;
+    cursor: pointer;
 }
 
 .main__boka a {
