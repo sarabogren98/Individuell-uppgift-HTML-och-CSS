@@ -25,11 +25,11 @@
 
         <h1 class="main__rubrik">Önskad kost:</h1>
 
-        <div class="main__kostruta">
+        <form class="main__kostruta" action="/uppgifter.html">
                 
             <div class="main__kostruta__buttons">
                     <label for="Kött">Kött</label>
-                <input type="radio" name="kost" id="Kött" required>
+                <input type="radio" name="kost" id="Kött" required="required">
 
             <label for="Fisk">Fisk</label>
             <input type="radio" name="kost" id="Fisk">
@@ -45,17 +45,13 @@
             <label for="allergier">Eventuella allergier</label>
             <input type="text" name="kost" id="allergier">
            </div>
-            
- 
-        </div>
- 
- 
-        
 
-        
-        <div>
-            <button class="main__boka"><a href="/uppgifter.html">Gå vidare</a></button>
-        </div>
+            
+
+           <input type="submit" value="Gå vidare" class="main__boka">
+            
+       </form> 
+ 
 
        
     </main>
