@@ -35,6 +35,7 @@ body {
     display: flex;
     gap: 4em;
     overflow-x: scroll;
+    height: 370px;
 }
 
 ::-webkit-scrollbar {
@@ -59,12 +60,14 @@ body {
     height: 0;
 }
 
-[type=radio] + div {
+[type=radio] + .main__card {
     cursor: pointer;
   }
   
-  [type=radio]:checked + div {
+  [type=radio]:checked + .main__card {
     border: 2px solid black;
+    transform: scale(1.1);
+    transition: all 0.5s;
   }
 
 .main__card h3 {
@@ -96,7 +99,6 @@ body {
     border: none;
     border-radius: 100em;
     box-shadow: 1px 1px 2px grey;
-    margin-top: 5vh;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -119,6 +121,10 @@ text-decoration: none;
         transform: translateX(-50%);
         font-size: 24px;
     }
+
+    .main__card__holder {
+        height: 400px;
+    }
 }
 
 @media (min-width:600px) {
@@ -133,6 +139,7 @@ text-decoration: none;
 
     .main__card__holder {
         justify-content: center;
+        height: 450px;
     }
 
     .header__meny {
@@ -151,6 +158,18 @@ text-decoration: none;
     .main__card__innerbox p {
         font-size: 18px;
     }
+
+    .main__card:hover {
+        transform: scale(1.2);
+        transition: all 0.5s;
+    }
+
+    [type=radio]:checked + .main__card {
+        transform: scale(1.2);
+        transition: all 0.5s;
+    }
+
+
 
 }
 
