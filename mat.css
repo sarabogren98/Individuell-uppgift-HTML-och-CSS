@@ -26,6 +26,23 @@ body {
 
 
 
+.main__boka {
+    width:170px;
+    height: 70px;
+    background-color: #A9FDFF;
+    border: none;
+    border-radius: 100em;
+    box-shadow: 1px 1px 2px grey;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main__boka a {
+font-size: 16px;
+color: black;
+text-decoration: none;
+}
 
 
 
