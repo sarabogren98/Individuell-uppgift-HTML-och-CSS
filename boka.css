@@ -57,7 +57,7 @@ body {
 [type=radio] {
    position: absolute;
    top: 50%;
-   left: 900px;
+   left: 170px;
    z-index: 0;
 }
 
@@ -127,6 +127,10 @@ text-decoration: none;
     .main__card__holder {
         height: 400px;
     }
+
+    .main__boka {
+        margin-top: 5em;
+    }
 }
 
 @media (min-width:600px) {
@@ -135,13 +139,17 @@ text-decoration: none;
         font-size: 32px;
         width: 600px;
     }
+
+    .main__boka {
+        margin-top: 7em;
+    }
 }
 
 @media (min-width:1000px) {
 
     .main__card__holder {
         justify-content: center;
-        height: 450px;
+        height: 400px;
     }
 
     .header__meny {
@@ -162,12 +170,12 @@ text-decoration: none;
     }
 
     .main__card:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: all 0.5s;
     }
 
     [type=radio]:checked + .main__card {
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: all 0.5s;
     }
 
