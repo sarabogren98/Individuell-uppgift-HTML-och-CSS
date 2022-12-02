@@ -31,28 +31,28 @@
             <div class="main__form__personal">
 
                <label for="namn">Namn</label>
-            <input type="text" name="uppgifter" id="namn">
+            <input type="text" name="uppgifter" id="namn" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')">
 
             <label for="e-post">E-post</label>
-            <input type="text" name="uppgifter" id="e-post"> 
+            <input type="text" name="uppgifter" id="e-post" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')"> 
 
             </div>
             
             <div class="main__form__adress">
 
               <label for="adress">Adress</label>
-            <input type="text" name="uppgifter" id="adress">
+            <input type="text" name="uppgifter" id="adress" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')">
 
             <div class="main__form__adress__small">
               
                 <div>
                    <label for="postnummer">Postnummer</label>
-                 <input type="text" name="uppgifter" id="postnummer">   
+                 <input type="number" name="uppgifter" id="postnummer" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')">   
                 </div>
                 
                 <div>
                    <label for="postort">Postort</label>
-                <input type="text" name="uppgifter" id="postort"> 
+                <input type="text" name="uppgifter" id="postort" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')" > 
                 </div>
                 
             </div>
@@ -65,23 +65,23 @@
             <div class="main__form__card">
 
                 <label for="kortnummer">Kortnummer</label>
-            <input type="text" name="uppgifter" id="kortnummer">
+            <input type="number" name="uppgifter" id="kortnummer" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')">
 
             <div class="main__form__card__small">
 
                 <div>
                    <label for="mån">Mån</label>
-                    <input type="text" name="uppgifter" id="mån"> 
+                    <input type="text" name="uppgifter" id="mån" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')"> 
                 </div>
                
                 <div>
                     <label for="år">År</label>
-                    <input type="text" name="uppgifter" id="år">
+                    <input type="number" name="uppgifter" id="år" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')">
                 </div>
                      
                 <div>
                     <label for="cvc">CVC</label>
-                    <input type="text" name="uppgifter" id="cvc">
+                    <input type="number" name="uppgifter" id="cvc" required oninvalid="this.setCustomValidity('Fyll i alla fälten tack!')" oninput="this.setCustomValidity('')">
 
                 </div>
                 
