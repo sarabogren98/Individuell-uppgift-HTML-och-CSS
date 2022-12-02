@@ -106,7 +106,18 @@ main div {
     
 }
 
-@media (min-width:1100px) {
+@media (min-width:900px) {
+
+    .header__outerbox {
+        width: 800px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media (min-width:1300px) {
 
     .main__meny {
         font-size: 50px;
@@ -144,3 +155,5 @@ main div {
     }
 
 }
+
+@media (min-height:)
