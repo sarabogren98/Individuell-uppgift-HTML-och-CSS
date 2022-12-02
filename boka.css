@@ -116,7 +116,7 @@ text-decoration: none;
 
     .header__meny {
         width: 350px;
-        margin-top: 3em;
+        margin-top: 1em;
         margin-left: 0;
         position: relative;
         left: 50%;
@@ -129,7 +129,7 @@ text-decoration: none;
     }
 
     .main__boka {
-        margin-top: 5em;
+        margin-top: 2em;
     }
 }
 
@@ -141,7 +141,7 @@ text-decoration: none;
     }
 
     .main__boka {
-        margin-top: 7em;
+        margin-top: 3em;
     }
 }
 

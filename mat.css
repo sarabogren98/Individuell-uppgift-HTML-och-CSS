@@ -6,7 +6,6 @@
 
 body {
     background-color: #81CBCD;
-    overflow: hidden;
 }
 
 /* Menu */
@@ -35,12 +34,10 @@ main {
 }
 
 .main__rubrik {
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 .main__kostruta {
-
-    margin-top: 5vh;
     background-color: #A9FDFF;
     height: 100%;
     width: 250px;
@@ -56,11 +53,13 @@ main {
     flex-direction: column;
     justify-content: center;
     margin-left: 10%;
+    justify-content: space-around;
+    margin-top: 30px;
 }
 
 .main__kostruta__buttons input {
     position: relative;
-    bottom: 15px;
+    bottom: 32px;
 }
 
 
@@ -135,14 +134,18 @@ text-decoration: none;
     .header__meny {
         font-size: 32px;
         width: 600px;
+        margin-top: 5vh;
     }
 
     .main__kostruta {
         scale: 1.2;
+        margin-bottom: 20vh;
     }
 
     .main__rubrik{
         font-size: 40px;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
     }
 }
 
