@@ -137,6 +137,14 @@ text-decoration: none;
         transform: translateX(-50%);
         font-size: 24px;
     }
+
+    .main__form__adress, .main__form__personal, .main__form__card {
+        margin-left: 40px;
+    }
+
+    .main__form {
+        height: 350px;
+    }
 }
 
 
@@ -150,6 +158,8 @@ text-decoration: none;
     .main__boka {
         margin-top: 2em;
     }
+
+  
 }
 
 @media (min-width:1000px) {
@@ -159,6 +169,10 @@ text-decoration: none;
         width: 1000px;
     }
 
-   
+}
 
+@media (max-height:634px) {
+    .main__boka {
+        margin-top: 150px;
+    }
 }
