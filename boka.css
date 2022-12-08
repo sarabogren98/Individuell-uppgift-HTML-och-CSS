@@ -52,6 +52,7 @@ body {
     margin-top: 4vh;
     box-shadow: 2em 1em 1em grey;
     z-index: 1;
+    transition: all 0.5s ease-in-out;
 }
 
 [type=radio] {
@@ -59,6 +60,7 @@ body {
    top: 50%;
    left: 170px;
    z-index: 0;
+   opacity: 0;
 }
 
 [type=radio] + .main__card {
@@ -69,6 +71,7 @@ body {
     border: 2px solid black;
     transform: scale(1.1);
     transition: all 0.5s;
+    box-shadow: 2em 1em 2em grey;
   }
 
 .main__card h3 {
@@ -169,9 +172,14 @@ text-decoration: none;
         font-size: 18px;
     }
 
+    .main__card
+    {
+        transition: all 0.5s ease-in-out;
+    }
+
     .main__card:hover {
         transform: scale(1.1);
-        transition: all 0.5s;
+        box-shadow: 2em 1em 2em grey;
     }
 
     [type=radio]:checked + .main__card {
@@ -179,9 +187,9 @@ text-decoration: none;
         transition: all 0.5s;
     }
 
-
-
 }
+
+
 
 @media (min-height:600px) {
 
