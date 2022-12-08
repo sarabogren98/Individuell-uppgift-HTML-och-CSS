@@ -42,7 +42,7 @@ main h1 {
 .main__form {
     background-color: #A9FDFF;
     border-radius: 2em;
-    height: 310px;
+    height: 420px;
     width: 250px;
 }
 
@@ -50,9 +50,18 @@ main h1 {
     display: block;
 }
 
-.main__form__personal, .main__form__adress, .main__form__card {
-    margin-top: 2vh;
+.main__form__adress, .main__form__card {
+    margin-top: 8vh;
     margin-left: 7vh;
+}
+
+.main__form__personal {
+    margin-left: 7vh;
+    margin-top: 2vh;
+}
+
+.main__form__personal label {
+    margin-top: 1em;
 }
 
 /* Adress små rutor */
@@ -112,6 +121,7 @@ main h1 {
     left: 50%;
     transform: translateX(-50%);
     cursor:pointer;
+    margin-top: 7.5em;
 
 }
 
@@ -143,8 +153,13 @@ text-decoration: none;
     }
 
     .main__form {
-        height: 350px;
+        height: 450px;
     }
+
+    .main__boka {
+        margin-top: 8em;
+    }
+
 }
 
 
@@ -156,7 +171,7 @@ text-decoration: none;
     }
 
     .main__boka {
-        margin-top: 2em;
+        margin-top: 8em;
     }
 
   
@@ -169,10 +184,20 @@ text-decoration: none;
         width: 1000px;
     }
 
+    .main__form {
+        height: 500px;
+    }
+
+    .main__boka {
+        margin-top: 9em;
+    }
+
 }
 
-@media (max-height:634px) {
-    .main__boka {
-        margin-top: 150px;
+@media (min-height:863px) {
+
+    .main__boka{
+        margin-top: 2em;
     }
-}
+    
+})
