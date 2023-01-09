@@ -116,6 +116,14 @@ main h1 {
     margin-left: 19px;
 }
 
+.main__form input:invalid {
+    border-color: red;
+}
+
+.main__form input:valid {
+    border-color: green;
+}
+
 
 
 

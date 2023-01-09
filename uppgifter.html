@@ -30,28 +30,28 @@
             <div class="main__form__personal">
 
                <label for="namn">Namn</label>
-            <input type="text" name="uppgifter" id="namn" required oninvalid="this.setCustomValidity('Fyll i ditt namn tack!')" oninput="this.setCustomValidity('')">
+            <input type="text" name="uppgifter" id="namn" required oninvalid="this.setCustomValidity('Fyll i ditt namn tack!')" oninput="this.setCustomValidity('')" minlength="3">
 
             <label for="e-post">E-post</label>
-            <input type="text" name="uppgifter" id="e-post" required oninvalid="this.setCustomValidity('Fyll i din e-post tack!')" oninput="this.setCustomValidity('')"> 
+            <input type="text" name="uppgifter" id="e-post" required oninvalid="this.setCustomValidity('Fyll i din e-post tack!')" oninput="this.setCustomValidity('')" minlength="4"> 
 
             </div>
             
             <div class="main__form__adress">
 
               <label for="adress">Adress</label>
-            <input type="text" name="uppgifter" id="adress" required oninvalid="this.setCustomValidity('Fyll i din adress tack!')" oninput="this.setCustomValidity('')">
+            <input type="text" name="uppgifter" id="adress" required oninvalid="this.setCustomValidity('Fyll i din adress tack!')" oninput="this.setCustomValidity('')" minlength="4">
 
             <div class="main__form__adress__small">
               
                 <div>
                    <label for="postnummer">Postnummer</label>
-                 <input type="number" name="uppgifter" id="postnummer" required oninvalid="this.setCustomValidity('Fyll i ditt postnummer tack!')" oninput="this.setCustomValidity('')">   
+                 <input type="number" name="uppgifter" id="postnummer" required oninvalid="this.setCustomValidity('Fyll i ditt postnummer tack!')" oninput="this.setCustomValidity('')" minlength="3">   
                 </div>
                 
                 <div>
                    <label for="postort">Postort</label>
-                <input type="text" name="uppgifter" id="postort" required oninvalid="this.setCustomValidity('Fyll i din postort tack!')" oninput="this.setCustomValidity('')" > 
+                <input type="text" name="uppgifter" id="postort" required oninvalid="this.setCustomValidity('Fyll i din postort tack!')" oninput="this.setCustomValidity('')" minlength="1"> 
                 </div>
                 
             </div>
@@ -64,23 +64,23 @@
             <div class="main__form__card">
 
                 <label for="kortnummer">Kortnummer</label>
-            <input type="number" name="uppgifter" id="kortnummer" required oninvalid="this.setCustomValidity('Fyll i ditt kortnummer tack!')" oninput="this.setCustomValidity('')">
+            <input type="number" name="uppgifter" id="kortnummer" required oninvalid="this.setCustomValidity('Fyll i ditt kortnummer tack!')" oninput="this.setCustomValidity('')" minlength="3">
 
             <div class="main__form__card__small">
 
                 <div>
                    <label for="mån">Mån</label>
-                    <input type="text" name="uppgifter" id="mån" required oninvalid="this.setCustomValidity('Fyll i utgångsmånad på ditt kort tack!')" oninput="this.setCustomValidity('')"> 
+                    <input type="text" name="uppgifter" id="mån" required oninvalid="this.setCustomValidity('Fyll i utgångsmånad på ditt kort med 3 bokstäver tack!')" oninput="this.setCustomValidity('')" minlength="3" maxlength="3"> 
                 </div>
                
                 <div>
                     <label for="år">År</label>
-                    <input type="number" name="uppgifter" id="år" required oninvalid="this.setCustomValidity('Fyll i utgångsår på ditt kort tack!')" oninput="this.setCustomValidity('')">
+                    <input type="number" name="uppgifter" id="år" required oninvalid="this.setCustomValidity('Fyll i utgångsår på ditt kort med 2 siffror tack!')" oninput="this.setCustomValidity('')" minlength="2" maxlength="2">
                 </div>
                      
                 <div>
                     <label for="cvc">CVC</label>
-                    <input type="number" name="uppgifter" id="cvc" required oninvalid="this.setCustomValidity('Fyll i ditt cvc nummer tack!')" oninput="this.setCustomValidity('')">
+                    <input type="number" name="uppgifter" id="cvc" required oninvalid="this.setCustomValidity('Fyll i ditt cvc nummer med 3 siffror tack!')" oninput="this.setCustomValidity('')" minlength="3" maxlength="3">
 
                 </div>
                 
