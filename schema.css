@@ -24,6 +24,22 @@ body {
 }
 
 
+.header__meny__button  {
+    width:170px;
+    height: 70px;
+    background-color: #A9FDFF;
+    border: none;
+    border-radius: 100em;
+    box-shadow: 1em 1em 1em grey;
+    margin-top: 5vh;
+}
+
+.header__meny__button:hover {
+    transform: scale(1.1);
+    box-shadow: 2em 1em 2em grey;
+}
+
+
 .main__box {
     display: flex;
     flex-direction: column;
