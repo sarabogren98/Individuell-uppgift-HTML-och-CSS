@@ -57,7 +57,7 @@ body {
 
 
 .main__rubrik {
-    margin-top: 1em;
+    margin-top: 0.2em;
     display: flex;
     justify-content: center;
 }
@@ -135,7 +135,9 @@ body {
     border-radius: 100em;
     box-shadow: 1px 1px 2px grey;
     position: absolute;
-    top: 80%;
+    top: 86%;
+    left: 50%;
+    transform: translateX(-50%);
     cursor:pointer;
 
 }
@@ -222,9 +224,3 @@ text-decoration: none;
 
 
 
-@media (min-height:600px) {
-
-    main {
-       margin-top: 20vh;
-    }
-}
