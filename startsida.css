@@ -21,7 +21,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 
 .header__image {
@@ -59,14 +59,33 @@ header {
     text-decoration: none;
 }
 
+.main__meny__button  {
+    width:170px;
+    height: 70px;
+    background-color: #A9FDFF;
+    border: none;
+    border-radius: 100em;
+    box-shadow: 1em 1em 1em grey;
+    margin-top: 5vh;
+}
+
+.main__meny__button:hover {
+    transform: scale(1.1);
+    box-shadow: 2em 1em 2em grey;
+}
+
 .main__boka {
     width:170px;
     height: 70px;
     background-color: #A9FDFF;
     border: none;
     border-radius: 100em;
-    box-shadow: 1px 1px 2px grey;
-    margin-top: 5vh;
+    box-shadow: 1em 1em 1em grey;
+}
+
+.main__boka:hover {
+    transform: scale(1.1);
+    box-shadow: 2em 1em 2em grey;
 }
 
 .main__boka a {
